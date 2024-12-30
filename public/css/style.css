@@ -1,0 +1,15 @@
+#rt-custom-loader{display:none;z-index:99999;position:fixed;left:0;right:0;top:0;bottom:0;background:#00000050;}
+#rt-custom-loader .inner{display:flex;align-items:center;justify-content:center;height:100%;}
+.dashboard-content{display:flex;flex-direction:column;min-height:100vh;}
+.dashboard-content .inner-content{flex:1;}
+.small-form-wrapper{max-width:500px;}
+.gap-0{gap:0rem;}
+.gap-1{gap:0.25rem;}
+.gap-2{gap:0.5rem;}
+.gap-3{gap:1rem;} 
+.gap-4{gap:1.5rem;}
+.gap-5{gap:3rem;}
+.has-cust-error-msg{font-size:14px;color:#f00;margin-top:5px;font-weight:400;}
+.has-cust-error{border:1px solid #f00 !important;}
+.w-500 .inner-content{width:500px;max-width:calc(100% - 40px);padding:0 !important;box-sizing:border-box;}
+.page-link.active{background-color:#e9ecef;border-color:#dee2e6;}
