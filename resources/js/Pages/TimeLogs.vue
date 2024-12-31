@@ -143,7 +143,7 @@
                 <div class="d-flex gap-3 align-items-center justify-content-between mb-3">
                     <h1 class="d-flex">{{ selectedItem.project_name }}</h1>
                 </div>
-                <div class="description">{{ selectedItem.description }}</div>
+                <div class="description" style="white-space:pre-wrap;">{{ selectedItem.description }}</div>
             </div>
         </div>
     </div>

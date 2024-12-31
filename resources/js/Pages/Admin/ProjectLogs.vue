@@ -130,7 +130,7 @@
     <AdminLayout>
         <div class="bg-white p-4 rounded-30px ">
             <div class="d-flex gap-3 align-items-center justify-content-between mb-3">
-                <h1 class="d-flex align-items-center gap-2"><span>Project Loggings</span></h1>
+                <h1 class="d-flex align-items-center gap-2"><span>Project Logs</span></h1>
             </div>
             <div class="mb-4 bar-form-wrapper logging-form-bar d-flex justify-content-between align-items-center"> 
                 <div class="d-flex justify-content-between align-items-center gap-3">
@@ -158,7 +158,6 @@
                             <th>Project</th>
                             <th>Activity</th>
                             <th>User</th>
-                            <th>Description</th>
                             <th>Project Date</th>
                             <th>Spent Time</th>
                             <th>Action</th>
@@ -170,7 +169,6 @@
                             <td data-title="Project">{{ item.project_name }}</td>
                             <td data-title="Activity">{{ item.activity_name }}</td>
                             <td data-title="User">{{ item.user_name }}</td>
-                            <td data-title="Description">{{ item.description }}</td>
                             <td data-title="Project Date">{{ item.date }}</td>
                             <td data-title="Spent Time">{{ convertMinutesToTime(item.time) }}</td>
                             <td data-title="Action">
@@ -179,7 +177,7 @@
                             </td>
                         </tr>
                         <tr v-else-if="loading">
-                            <td colspan="8">
+                            <td colspan="7">
                                 <svg viewBox="0 0 38 38" width="40" height="40" stroke="#cfcfcf">
                                     <g fill="none" fillRule="evenodd">
                                         <g transform="translate(1 1)" stroke-width="3">
@@ -193,7 +191,7 @@
                             </td>
                         </tr>
                         <tr v-else>
-                            <td colspan="8">No record found.</td>
+                            <td colspan="7">No record found.</td>
                         </tr>
                     </tbody>
                 </table>

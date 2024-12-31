@@ -17,6 +17,15 @@
                         <a class="nav-link" :class="isRoute('admin.dashboard') ? 'active' : ''" :href="route('admin.dashboard')"><i class="demo-icon icon-dashboard"></i> Dashboard</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" :class="isRoute('admin.project-logs') ? 'active' : ''" :href="route('admin.project-logs')"><i class="demo-icon icon-project-logging"></i> Project Logs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" :class="(isRoute('admin.project-summary') || isRoute('admin.project-summary.view')) ? 'active' : ''" :href="route('admin.project-summary')"><i class="demo-icon icon-project-summary"></i> Project Summary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" :class="isRoute('admin.employee-summary') ? 'active' : ''" :href="route('admin.employee-summary')"><i class="demo-icon icon-employee-summary"></i> Employee Summary</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" :class="isRoute('admin.users') ? 'active' : ''" :href="route('admin.users')"><i class="demo-icon icon-clients"></i> Users</a>
                     </li>
                     <li class="nav-item">
@@ -27,15 +36,6 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" :class="isRoute('admin.projects') ? 'active' : ''" :href="route('admin.projects')"><i class="demo-icon icon-project"></i> Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" :class="isRoute('admin.project-logs') ? 'active' : ''" :href="route('admin.project-logs')"><i class="demo-icon icon-project-logging"></i> Project Loggings</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" :class="(isRoute('admin.project-summary') || isRoute('admin.project-summary.view')) ? 'active' : ''" :href="route('admin.project-summary')"><i class="demo-icon icon-project-summary"></i> Project Summary</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" :class="isRoute('admin.employee-summary') ? 'active' : ''" :href="route('admin.employee-summary')"><i class="demo-icon icon-employee-summary"></i> Employee Summary</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" :class="isRoute('admin.change-password') ? 'active' : ''" :href="route('admin.change-password')"> <i class="demo-icon icon-password"></i> Change Password</a>
