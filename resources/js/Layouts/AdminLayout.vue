@@ -17,7 +17,7 @@
                         <a class="nav-link" :class="isRoute('admin.dashboard') ? 'active' : ''" :href="route('admin.dashboard')"><i class="demo-icon icon-dashboard"></i> Dashboard</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" :class="isRoute('admin.project-logs') ? 'active' : ''" :href="route('admin.project-logs')"><i class="demo-icon icon-project-logging"></i> Project Logs</a>
+                        <a class="nav-link" :class="isRoute('admin.project-logs') ? 'active' : ''" :href="route('admin.project-logs')"><i class="demo-icon icon-project-logging"></i> Time Logs</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" :class="(isRoute('admin.project-summary') || isRoute('admin.project-summary.view')) ? 'active' : ''" :href="route('admin.project-summary')"><i class="demo-icon icon-project-summary"></i> Project Summary</a>
