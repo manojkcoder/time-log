@@ -41,7 +41,7 @@ class ProjectLogController extends Controller
         }
         $totalLogs = clone $items;
         $totalTime = $totalLogs->sum("time");
-        $items = $items->orderBy("id","desc")->paginate($length)->onEachSide(1);
+        $items = $items->orderBy("date","desc")->paginate($length)->onEachSide(1);
         return json_encode(["items" => $items,"totalTime" => $totalTime]);
     }
     public function exportLogs(Request $request){
