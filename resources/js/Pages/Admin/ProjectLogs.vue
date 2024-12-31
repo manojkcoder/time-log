@@ -154,7 +154,6 @@
                 <table class="table">
                     <thead>
                         <tr>
-                            <th>ID</th>
                             <th>Project</th>
                             <th>Activity</th>
                             <th>User</th>
@@ -165,7 +164,6 @@
                     </thead>
                     <tbody>
                         <tr v-if="items.data.length > 0 && !loading" v-for="item in items.data" :key="item.id">
-                            <td data-title="ID">{{ item.id }}</td>
                             <td data-title="Project">{{ item.project_name }}</td>
                             <td data-title="Activity">{{ item.activity_name }}</td>
                             <td data-title="User">{{ item.user_name }}</td>
