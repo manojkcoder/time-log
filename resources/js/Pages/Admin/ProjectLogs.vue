@@ -126,11 +126,11 @@
     import "vue3-toastify/dist/index.css";
 </script>
 <template>
-    <Head title="Project Logs"/>
+    <Head title="Time Logs"/>
     <AdminLayout>
         <div class="bg-white p-4 rounded-30px ">
             <div class="d-flex gap-3 align-items-center justify-content-between mb-3">
-                <h1 class="d-flex align-items-center gap-2"><span>Project Logs</span></h1>
+                <h1 class="d-flex align-items-center gap-2"><span>Time Logs</span></h1>
             </div>
             <div class="mb-4 bar-form-wrapper logging-form-bar d-flex justify-content-between align-items-center"> 
                 <div class="d-flex justify-content-between align-items-center gap-3">
@@ -158,7 +158,7 @@
                             <th>Project</th>
                             <th>Activity</th>
                             <th>User</th>
-                            <th>Project Date</th>
+                            <th>Log Date</th>
                             <th>Spent Time</th>
                             <th>Action</th>
                         </tr>
